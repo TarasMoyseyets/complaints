@@ -57,7 +57,7 @@ class ComplaintsController {
                             . '<td>'.$pagin['ip'].'</td>'
                             . '<td>'.$pagin['browser'].'</td>';
                             if(isset($_SESSION['admin']) && $_SESSION['admin'] == 1){
-                               $output .= '<td><span class="delete" id="'.$pagin['id'].'">delete</span></td><td><span class="update" id="'.$pagin['id'].'">update</span></td>';
+                               $output .= '<td><button><span class="delete" id="'.$pagin['id'].'">delete</span></button></td><td><button><span class="update" id="'.$pagin['id'].'">update</span></button></td>';
                             }
                     $output .= '<tr>';
         endforeach;

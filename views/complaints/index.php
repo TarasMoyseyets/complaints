@@ -15,7 +15,7 @@
             </form>            
         </div>
         <div>            
-            <span class="logout">log out</span>
+            <button><span class="logout">log out</span></button>
         </div>
         <br>
         <br>
