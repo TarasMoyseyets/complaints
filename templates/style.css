@@ -1,0 +1,24 @@
+input{
+    display: block;
+}
+.pagination{
+    display: inline-block;
+    background: gray; /* Цвет фона */
+    padding: 3px;
+    margin-right: 5px;
+/*    border-radius: 50%;*/
+    height: 15px;
+    width: 15px;
+}.pagination:hover{
+    background: white;
+    cursor: default;
+}
+span{
+    margin-left: 3px;
+}
+.form-update{
+    display: none;
+}
+.form-style-6{
+    display: inline-block;
+}
